@@ -1,0 +1,80 @@
+.imagesize {
+  height: 300px;
+  width: 300px;
+}
+
+.outermostcontainer {
+  background-color: #1f1f2f;
+  color: white;
+  padding: 30px;
+}
+
+.part1 {
+  height: 50vh;
+}
+
+.scroll-container {
+  width: 100%; /* Set the width of your container */
+  height: 50vh; /* Set the height of your container */
+  overflow-y: scroll; /* Enable vertical scrollbar */
+
+  /* Customize the scrollbar appearance */
+  scrollbar-width: thin; /* "auto" or "thin" for Firefox, "auto" for other browsers */
+  scrollbar-color: darkgray lightgray; /* Scrollbar color and track color */
+}
+
+/* Handle styling for WebKit browsers (Chrome, Safari) */
+.scroll-container::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: darkgray; /* Scrollbar thumb color */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: lightgray; /* Scrollbar track color */
+}
+
+.divcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-style: solid;
+  border-color: #3b82f6;
+  border-width: 1px;
+  width: 100%;
+}
+
+.buttonelement {
+  background-color: #3b82f6;
+  padding: 10px;
+  height: 40px;
+  width: 100px;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 0px;
+  color: white;
+  margin-top: 15px;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.lower {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.margins {
+  margin-right: 10px;
+}
+
+.lower2334 {
+  width: 30%;
+}
